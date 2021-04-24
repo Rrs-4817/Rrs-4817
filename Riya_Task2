@@ -1,0 +1,14 @@
+#Task attempted :  Task 2
+#Name of applicant:Riya
+#Repository name : Riya_Task2
+
+#task2
+import pandas as pd 
+df = pd.read_csv('first_years_dataset_2.csv')
+df
+#passenger details with the highest fare
+df.loc[df['Fare'].idxmax('Name')]
+#details of O'Driscoll, Miss. Bridget including fare
+df.loc[df['Name'] == '''O'Driscoll, Miss. Bridget''']
+#number of Nan
+df['Age'].isnull().sum()
