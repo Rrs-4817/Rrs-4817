@@ -1,0 +1,8 @@
+#Task attempted :  Task 3
+#Name of applicant:Riya
+#Repository name : Riya_Task3
+#filling Nan
+ndf = df.fillna(method="ffill")
+ndf
+#Mean of the column age
+df["Age"].mean()
